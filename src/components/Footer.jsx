@@ -1,10 +1,11 @@
 import React from "react";
+import style from '../css/Footer.module.css'
 import logoImg from "../images/logo_2_1200x1200 (1).png";
 
 
 const Footer = () => {
   return (
-    <div className="bg-black">
+    <div className={style.container}>
       <div>
         <h6>INFORMATION</h6>
         <li>
@@ -51,7 +52,7 @@ const Footer = () => {
         </li>{" "}
       </div>
           <div>
-              <img src={logoImg} alt="" className="w-10" />
+              <img src={logoImg} alt="" className={style.logoImg} />
       </div>
     </div>
   );
