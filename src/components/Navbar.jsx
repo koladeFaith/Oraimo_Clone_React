@@ -22,7 +22,7 @@ const Navbar = () => {
         </div>
         <div className={style.icons}>
           <i className="bi bi-search"></i>
-          <i className="bi bi-person"></i>
+          <i className="bi bi-person d-none d-lg-block"></i>
           <i className="bi bi-cart"></i>
         </div>
       </div>

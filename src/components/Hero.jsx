@@ -10,20 +10,20 @@ const Hero = () => {
     <div>
       <div
         id="carouselExampleSlidesOnly"
-        className="carousel slide"
+        className="carousel slide  overflow-hidden w-100"
         data-bs-ride="carousel">
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src={slide1} className="d-block w-100 h-100" alt="Slide 1" />
+            <img src={slide1} className="d-block w-100 vh-100 object-fit-cover" alt="Slide 1" />
           </div>
           <div className="carousel-item">
-            <img src={slide2} className="d-block w-100" alt="Slide 2" />
+            <img src={slide2} className="d-block w-100 vh-100 object-fit-cover" alt="Slide 2" />
           </div>
           <div className="carousel-item">
-            <img src={slide3} className="d-block w-100" alt="Slide 3" />
+            <img src={slide3} className="d-block w-100 vh-100 object-fit-cover" alt="Slide 3" />
           </div>{" "}
           <div className="carousel-item">
-            <img src={slide4} className="d-block w-100" alt="Slide 4" />
+            <img src={slide4} className="d-block w-100 vh-100 object-fit-cover" alt="Slide 4" />
           </div>
         </div>
       </div>
