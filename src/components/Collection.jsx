@@ -4,6 +4,8 @@ import img1 from "../images/20221012-110821_180x.jpg";
 import img2 from "../images/screenshot-20220610-181831_180x.png";
 import img3 from "../images/20221020-175742_180x.jpg";
 import img4 from "../images/OHV-102_180x.jpg";
+import img5 from "../images/01-2_720x (1).jpg";
+import img6 from "../images/L101A_6795dcd9-ff79-4876-ae62-fda7b4c90f39_720x.jpg";
 
 const Collection = () => {
   return (
@@ -32,10 +34,10 @@ const Collection = () => {
         </div>
       </div>
       <div>
-        <div className={style.oriamo}>
-          <div>
+        <div className={style.imgFlex2}>
+          <div className={style.oriamo}>
             {" "}
-            <h5 className="fw-300 fs-1 pb-3">
+            <h5 className="fw-300 pb-3">
               Oraimo Cordless 24KPA Vacuum Cleaner
             </h5>
             <li>Up to 24kpa Suction</li>
@@ -46,7 +48,25 @@ const Collection = () => {
             <button>Learn more</button>
           </div>
           <div>
-            <img src="" alt="" />
+            <img src={img5} alt="" className="w-100 mt-3 mt-md-0" />
+          </div>
+        </div>
+        <div className={style.imgFlex2}>
+          <div>
+            <img src={img6} alt="" className="w-100 mt-3 mt-md-0" />
+          </div>
+          <div className={style.oriamo}>
+            {" "}
+            <h5 className="fw-300 pb-3">
+              Oraimo Electric Spin Scrubber with 3 Attachments Brush
+            </h5>
+            <li>2 Adjustable Speeds</li>
+            <li>One-Click Release Button</li>
+            <li>Retractable Tube, All-round Cleaning</li>
+            <li>Long Working Time & Low NoiseTangle Defender Brush</li>
+            <li>Multifunctional Brushes</li>
+            <li>Quality Gift & Service</li>
+            <button>Learn more</button>
           </div>
         </div>
       </div>

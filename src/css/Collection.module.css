@@ -1,6 +1,6 @@
 .container{
     margin-inline: 20px;
-    margin-bottom: 90px;
+    margin-bottom: 50px;
 }
 .imgFlex {
     display: grid;
@@ -31,6 +31,18 @@
     color: #3b3642;
 padding: 5px 20px 5px 20px;
 margin-top: 5px;
+font-weight: 500;
+}
+.oriamo button:hover{
+color: white;
+background-color: #62dfa5;
+border: none;
+}
+.oriamo li{
+    font-weight: 600;
+}
+.oriamo h5{
+    font-size: 30px;
 }
 @media (min-width: 768px) {
     .imgFlex {
@@ -39,6 +51,19 @@ margin-top: 5px;
         text-align: center;
         gap: 10px;
     } 
+    .imgFlex2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px; 
+        justify-content: center;
+        align-items: center;
+    }
+    .imgFlex2 img{
+        width: 100%;
+    }
+    .oriamo h5{
+        font-size: 30px;
+    }
 }
 @media (min-width: 1440px) {
     .container{
