@@ -1,9 +1,29 @@
 .container{
     margin-inline: 20px;
+    margin-bottom: 90px;
 }
 .imgFlex {
     display: grid;
     grid-template-columns: 1fr 1fr;
     text-align: center;
+    gap: 20px;
 /* text-align: center; */
+}
+.imgs{
+    width: 100%;
+}
+@media (min-width: 768px) {
+    .imgFlex {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        text-align: center;
+        gap: 10px;
+    /* text-align: center; */
+    } 
+}
+@media (min-width: 1440px) {
+    .container{
+        margin-inline: 150px;
+    }
+
 }
