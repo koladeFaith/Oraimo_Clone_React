@@ -6,11 +6,31 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     text-align: center;
+    margin-bottom: 90px;
     gap: 20px;
 /* text-align: center; */
 }
 .imgs{
     width: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+.imgs:hover{
+    transform: scale(1.08);
+    z-index: 2;
+}
+.oriamo{
+    margin-inline: 20px;
+    color: rgb(138, 137, 146);
+    line-height: 30px;
+}
+.oriamo button{
+    border-radius: 20px;
+    border: 1px solid #3b3642;
+    background-color: white;
+    color: #3b3642;
+padding: 5px 20px 5px 20px;
+margin-top: 5px;
 }
 @media (min-width: 768px) {
     .imgFlex {
@@ -18,12 +38,11 @@
         grid-template-columns: 1fr 1fr 1fr 1fr;
         text-align: center;
         gap: 10px;
-    /* text-align: center; */
     } 
 }
 @media (min-width: 1440px) {
     .container{
-        margin-inline: 150px;
+        margin-inline: 200px;
     }
 
 }
