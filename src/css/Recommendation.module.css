@@ -1,0 +1,34 @@
+.container {
+  margin-inline: 23px;
+  margin-bottom: 50px;
+}
+.imgFlex {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 90px;
+  gap: 20px;
+}
+.imgFlex h5{
+margin-top: 10px;
+padding-bottom: 9px;
+}
+.imgFlex p{
+    font-size: 15px;
+    font-weight: 400;
+}
+.imgs{
+    width: 100%;
+}
+@media (min-width: 768px) {
+  .imgFlex {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+  }
+}
+@media (min-width: 1440px) {
+    .container{
+        margin-inline: 200px;
+    }
+
+}
